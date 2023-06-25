@@ -9,3 +9,6 @@ vendor/
 node_modules/
 
 _secrets.yml
+
+# ignores this for now while i figure out how to keep data private
+_data/

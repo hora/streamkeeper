@@ -5,4 +5,4 @@ title: "streamkeeper" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-postcss
 
-exclude: ["Gemfile*", "Rakefile"]
+exclude: ["Gemfile*", "Rakefile", "package*.json", "*.config.js", "media_parser.rb"]

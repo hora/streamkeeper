@@ -3,6 +3,11 @@ layout: default
 title: "latest"
 ---
 
-## You're ready to go!
+<ul>
+{% for movie in site.data.to_watch.tv.media %}
+  <li>
+    {{ movie.title }} - {{ movie.creator }}
+  </li>
+{% endfor %}
+</ul>
 
-Start developing your Jekyll website.

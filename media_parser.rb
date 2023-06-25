@@ -24,7 +24,7 @@ class MediaParser
 
   def format_list(text)
     list_name = text.strip.sub '## ', ''
-    @output += "#{list_name}:\n"
+    @output += "- #{list_name}:\n"
     @output += "  name: #{list_name}\n"
     @output += "  media:\n"
   end

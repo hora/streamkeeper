@@ -1,16 +1,16 @@
 module.exports = {
-  purge: [
+  content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
     './*.html',
   ],
-  darkMode: false,
   theme: {
     extend: {},
+      fontFamily: {
+        'sans': ['"Raleway"', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        'serif': ['"Goudy Bookletter 1911"', '"Times New Roman"', 'serif'],
+      },
   },
   variants: {},
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
 }

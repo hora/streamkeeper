@@ -6,3 +6,5 @@ plugins:
   - jekyll-postcss
 
 exclude: ["Gemfile*", "Rakefile", "package*.json", "*.config.js", "media_parser.rb"]
+
+name: "hora"

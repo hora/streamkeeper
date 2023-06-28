@@ -6,16 +6,19 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="font-serif">
-    <header class="font-sans">
-      <h1 class=""><a href='/'>streamkeeper</a></h1>
+  <body class="font-serif max-w-4xl mx-auto pb-10 bg-jet text-whitesmoke">
+    <header class="font-sans bg-eerie-black w-screen relative left-1/2 right-1/2 ml-[-50vw] mr-[-50vw] py-5">
+      <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl text-maize mb-4"><a href='/'>{{ site.name }}'s streamkeeper</a></h1>
       <nav class="">
-        <ul>
-          <li><a href='to-watch.html'>🎞️ to watch</a></li>
-          <li><a href='to-play.html'>🎮 to play</a></li>
-          <li><a href='to-read.html'>📕 to read</a></li>
+        <ul class="">
+          <li class="inline-block mr-4 hover:text-sage"><a href="to-watch.html">🎞️ <span class="hover:underline hover:pb-1 hover:underline-offset-4">to watch</span></a></li>
+          <li class="inline-block mr-4 hover:text-sage"><a href="to-play.html">🎮 <span class="hover:underline hover:pb-1 hover:underline-offset-4">to play</span></a></li>
+          <li class="inline-block mr-4 hover:text-sage"><a href="to-read.html">📕 <span class="hover:underline hover:pb-1 hover:underline-offset-4">to read</span></a></li>
+          <li class="inline-block mr-4 hover:text-sage"><a href="to-listen.html">🎧 <span class="hover:underline hover:pb-1 hover:underline-offset-4">to listen</span></a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <main>
